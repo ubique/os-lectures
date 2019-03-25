@@ -58,23 +58,14 @@
 
 -> Интересные числа <-
 ======================
- * Cycle
- * Main memory reference
- * Read 4K randomly from SSD
- * Read 1 MB sequentially from SSD
- * HDD Disk seek
- * Read 1 MB sequentially from HDD disk
-
----
-
--> Интересные числа <-
-======================
- * Cycle                                      1     ns
- * Main memory reference                      100   ns
- * Read 4K randomly from SSD                  150   us
- * Read 1 MB sequentially from SSD            1     ms
- * Disk seek                                  10    ms
- * Read 1 MB sequentially from disk           20    ms
+| Action                           | Time |    |
+|----------------------------------|------|----|
+| CPU Cycle                        | 1    | ns |
+| Main memory reference            | 200  | ns |
+| Read 4K randomly from SSD        | 150  | μs |
+| Read 1 MB sequentially from SSD  | 1    | ms |
+| Disk seek                        | 10   | ms |
+| Read 1 MB sequentially from disk | 20   | ms |
 
 ---
 
