@@ -32,7 +32,7 @@
  * MAC адрес
   - OUI
    * Vendor assigned
-  - Unicast   - least signigicat bit of the first octet is 0
+  - Unicast   - least significant bit of the first octet is 0
   - Multicast - least significant bit of the first octet is 1
   - Broadcast - ff:ff:ff:ff:ff:ff
  * Broadcast domain
